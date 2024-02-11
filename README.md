@@ -28,6 +28,9 @@ Below shows my KiCAD schematic for how it works. You'll notice the CUI headphone
 
 ## Build Notes
 I ordered my PCBs with 1.0mm thickness from JLCPCB. I'm not 100% sure if this is necessary, but I wanted to have extra headroom inside the Gameboy shell just to be sure it would fit. After you're done soldering the headphone jack and 4-pin cable, trim any excess protruding metal/solder off with side cutters to prevent impact with the top of the shell when it is assembled. 
+\
+\
+In the repository, I have included a BOM Excel file. There's a link to my Mouser cart for the parts inside.
 
 ## Internal Case Mod Necessary / Installation Pictures
 One mod is necessary to make this fit, because the headphone jack itself is larger than the original. I tried to find a smaller jack unsuccessfully. You'll need to cut away the old "walls" that went around the old headphone jack body. This will allow the new CUI SJ-3566AN to fit since it is a few millimeters larger. I used a pair of small side cutters. Leave the screw mounting holes in place, as you'll need them to screw the PCB down to. Be careful and don't cut too far (like I did) where you cut into the screw hole. It would be best to cut away the majority of the "walls", then use a small file to get the rest of the plastic around the screw holes.
