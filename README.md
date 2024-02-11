@@ -39,7 +39,7 @@ One mod is necessary to make this fit, because the headphone jack itself is larg
 ![cut shell](cut-shell.jpg)
 \
 \
-And here's what it should look like screwed in place. Don't overtighten the screws, because there's a gap when it is tightened down all the way. Just make them snug to the point where the board doesn't move, but isn't flexing.
+And here's what it should look like screwed in place. Don't overtighten the screws, because there's a gap when it is tightened down all the way. Just make them snug to the point where the board doesn't move, but isn't flexing. You could also 3D print some small washers to fit between the PCB and screw holes if you'd like. 
 \
 \
 ![installed](installed.jpg)
