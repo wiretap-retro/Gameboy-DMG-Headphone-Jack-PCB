@@ -45,7 +45,7 @@ And here's what it should look like screwed in place. Don't overtighten the scre
 ![installed](installed.jpg)
 \
 \
-Due to the OEM Gameboy DMG headphone jack having an offset of roughly 1mm and the new CUI jack not having an offset, it will fit closer to the left side of the external 3.5mm shell opening. Luckily there's enough room and no more case cutting is required. All my headphones still fit in the hole just fine.
+Due to the OEM Gameboy DMG headphone jack having an offset of roughly 1mm and the new CUI jack not having an offset, it will fit closer to the left side of the external 3.5mm shell opening. Luckily there's enough room and no more case cutting is required. All my headphones still fit in the hole just fine. Grr, OCD problems.
 \
 \
 ![outside](case-outside.jpg)
