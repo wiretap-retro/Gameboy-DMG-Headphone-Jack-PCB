@@ -8,12 +8,12 @@ After work one day, I decided to take a look at what made people keep using the 
 
 ## How It Works
 explanation / pic goes here \
-\
+
 
 ## Internal Case Mod Necessary
 explanation pic goes here \
-\
+
 
 ## Closing Thoughts
 thoughts here.. \
-\
+
