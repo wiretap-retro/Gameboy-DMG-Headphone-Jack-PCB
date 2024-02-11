@@ -54,6 +54,9 @@ Due to the OEM Gameboy DMG headphone jack having an offset of roughly 1mm and th
 ## Closing Thoughts
 This was a pretty fun project and I hope it helps out the community. As the supply of good/working original headphone jacks dwindle, we needed a solution like this to keep these handhelds alive. I tried to keep this one similar to OEM, but with updated parts. Feel free to utilize my design for your work, but please give me credit in your inspired works for figuring out this core design. Build and sell these if you want to make a few bucks along the way. Thanks!
 
+## Revision History
+Rev 0 - Initial revision. Tested and working, good to build.
+
 ## License
 This project is licensed under Creative Commons Legal Code CC0 1.0 Universal. Please view the LICENSE file in this Github Repository. 
 
