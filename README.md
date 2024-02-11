@@ -11,7 +11,9 @@ After work one day, I decided to take a look at what made people keep using the 
 ## How It Works
 Looking at the original Gameboy DMG schematic, we're really only interested in the "headphone jack" section as pictured below.
 \
+\
 ![headphone jack](gb-schematic.jpg)
+\
 \
 Here, it shows there's a switch going to ground that is controlled by the tip switch. Nintendo made this schematic simplified compared to the actual jack, so think of it as a separate single pole switch. It does not work in the same way as a normal tip or ring switch on most headphone jacks. It acts more like a SPDT isolated switch, telling the "detect" pin to short to ground or not. This is a normally closed contact, so when it is grounded, the speaker functions. When it is an open contact (ungrounded), the speaker turns off and the headphones function. The control for the detect line is done on the DMG motherboard in the audio amplifier. This is key to be able to duplicate this function properly. A simple tip or ring switchable headphone jack won't perform the detect pin --> ground switching properly without additional circuitry. I think this is where everyone got confused, or couldn't find the right parts.
 \
@@ -27,13 +29,18 @@ I ordered my PCBs with 1.0mm thickness from JLCPCB. I'm not 100% sure if this is
 ## Internal Case Mod Necessary / Installation Pictures
 One mod is necessary to make this fit, because the headphone jack itself is larger than the original. I tried to find a smaller jack unsuccessfully. You'll need to cut away the old "walls" that went around the old headphone jack body. This will allow the new CUI SJ-3566AN to fit since it is a few millimeters larger. I used a pair of small side cutters. Leave the screw mounting holes in place, as you'll need them to screw the PCB down to. Be careful and don't cut too far (like I did) where you cut into the screw hole. It would be best to cut away the majority of the "walls", then use a small file to get the rest of the plastic around the screw holes.
 \
+\
 ![cut shell](cut-shell.jpg)
+\
 \
 And here's what it should look like screwed in place. Don't overtighten the screws, because there's a gap when it is tightened down all the way. Just make them snug to the point where the board doesn't move, but isn't flexing.
 \
+\
 ![installed](installed.jpg)
 \
+\
 Due to the OEM Gameboy DMG headphone jack having an offset of roughly 1mm and the new CUI jack not having an offset, it will fit closer to the left side of the external 3.5mm shell opening. Luckily there's enough room and no more case cutting is required. All my headphones still fit in the hole just fine.
+\
 \
 ![outside](case-outside.jpg)
 \
