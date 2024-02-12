@@ -48,7 +48,7 @@ I cleaned it and tried all the tricks. DeoxIT spray first, Goldwipes between the
 ![nos-2](nos-2.jpg)
 \
 \
-If these are truly "new old stock", you can't fault the seller unless they install and test them -- but then they would be a used item, not a new old stock item. Unfortunately, this is what you have to deal with when purchasing decades old parts. This project's goal is to eliminate the need to rely on the decay of new old stock parts, or the frustration pf trying to refurbish your existing headphone jack.
+If these are truly "new old stock", you can't fault the seller unless they install and test them -- but then they would be a used item, not a new old stock item. Unfortunately, this is what you have to deal with when purchasing decades old parts. This project's goal is to eliminate the need to rely on the decay of new old stock parts, or the frustration of trying to refurbish your existing headphone jack.
 
 
 ## Build Notes
