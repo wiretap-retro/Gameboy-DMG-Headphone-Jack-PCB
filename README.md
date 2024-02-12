@@ -26,6 +26,26 @@ Below shows my KiCAD schematic for how it works. You'll notice the CUI headphone
 \
 ![schematic](schematic.jpg)
 
+## But NOS Still Exists!
+I have recently tried that, which inspired this project. I'm not saying all new old stock items are bad, but they are degrading through means of oxidation depending on their storage environment. Even a brand new product sitting on the shelf for 30+ years degrades. I deal with this at work all the time. Metal contacts oxidize, electrolytic capacitors dry up or need to be reformed periodically, and PCBs can delaminate. Here's a few pictures of what I recently encountered. 
+\
+\
+Order slip:
+\
+![slip](nos-0.jpg)
+\
+\
+Brand new part out of the anti-static bag. Notice the oxidation on the metal in the headphone jack:
+\
+![nos-1](nos-1.jpg)
+\
+\
+I cleaned it and tried all the tricks. Long vinegar soak, sandpaper between the contacts, DeoxIT spray, Goldwipes between the contacts, etc. It still wouldn't work.
+\
+![nos-2](nos-2.jpg)
+\
+
+
 ## Build Notes
 I ordered my PCBs with 1.0mm thickness from JLCPCB. I'm not 100% sure if this is necessary, but I wanted to have extra headroom inside the Gameboy shell just to be sure it would fit. After you're done soldering the headphone jack and 4-pin cable, trim any excess protruding metal/solder off with side cutters to prevent impact with the top of the shell when it is assembled. 
 \
