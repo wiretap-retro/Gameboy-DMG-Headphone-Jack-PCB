@@ -32,15 +32,18 @@ I have recently tried that, which inspired this project. I'm not saying all new 
 \
 Order slip:
 \
+\
 ![slip](nos-0.jpg)
 \
 \
 Brand new part out of the anti-static bag. Notice the oxidation on the metal in the headphone jack:
 \
+\
 ![nos-1](nos-1.jpg)
 \
 \
 I cleaned it and tried all the tricks. DeoxIT spray first, Goldwipes between the contacts second, vinegar soak third, and sandpaper between the contacts fourth. It still wouldn't work. I tried sandpaper last, since that should only be used as a last resort. Sandpaper removes the surface plating which normally would be used to make a good electrical contact. However, the oxidation seems to have ate away that good plated surface long ago.
+\
 \
 ![nos-2](nos-2.jpg)
 \
