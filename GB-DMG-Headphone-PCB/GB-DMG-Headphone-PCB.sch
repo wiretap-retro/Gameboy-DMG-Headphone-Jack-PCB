@@ -1130,7 +1130,7 @@ Wire Notes Line style solid
 Wire Notes Line style solid
 	6725 3225 6950 3225
 Text Notes 6975 3425 0    50   ~ 0
-SPDT Switch, Normally Closed\n(grounded enables speaker)\n(headphone insert breaks ground)
+SPST Switch, Normally Closed\n(grounded enables speaker)\n(headphone insert breaks ground)
 Text GLabel 6475 4250 2    50   Input ~ 0
 LEFT
 Text GLabel 6475 4150 2    50   Input ~ 0
