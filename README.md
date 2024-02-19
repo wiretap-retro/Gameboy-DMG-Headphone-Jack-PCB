@@ -2,6 +2,8 @@
 A replacement Gameboy DMG headphone jack PCB utilizing all newly manufactured parts -- yes, even the jack.
 
 ![front](front.png)
+\
+![pro](pro-top.JPG)
 
 ## Intro
 To start off, one of my orginal Gameboys has headphone jack issues, and no amount of cleaning fixed it. I tried every YouTube tutorial, forum advice, Discord advice, etc. Surely, someone has to have made a near OEM style replacement right? I guess not. Every replacement board I could find uses the old Gameboy DMG headphone jack. I did find one completely new design in the Super DMG 01, but that strays too far from OEM and has a lot of unnecessary parts if you just want a cheap and simple replacement. \
@@ -75,6 +77,15 @@ Due to the OEM Gameboy DMG headphone jack having an offset of roughly 1mm and th
 \
 ![outside](case-outside.jpg)
 
+## Pro Version
+The Pro version adds another 3.5mm headphone jack to provide "pro audio", a non-amplified left and right audio channel to run into a mixer or other equipment. This is normally used with a 3.5mm to RCA cable. The installation is the same as the original version above, except you need to make an additional cutout on the shell to allow the other 3.5mm jack to come through. 
+\
+\
+This mod does not require cutting of the original 4-pin harness, and you can use both jacks simultaneously if desired. You will need to run two additional wires to the PCB from the volume potentiometer. See diagram below for the Right and Left pre-out solder points to connect to the pro audio PCB.
+\
+\
+![mod-wires](mod-wires.jpg)
+
 
 ## Closing Thoughts
 This was a pretty fun project and I hope it helps out the community. As the supply of good/working original headphone jacks dwindle, we needed a solution like this to keep these handhelds alive. I tried to keep this one similar to OEM, but with updated parts. Feel free to utilize my design for your work, but please give me credit in your inspired works for figuring out this core design. Build and sell these if you want to make a few bucks along the way. Thanks!
@@ -82,6 +93,8 @@ This was a pretty fun project and I hope it helps out the community. As the supp
 Discussion: [My Reddit Post](https://www.reddit.com/r/Gameboy/comments/1aojew2/gameboy_dmg_headphone_jack_replacement/)
 
 ## Revision History
+Rev 0 Pro - Initial revision.
+\
 Rev 0 - Initial revision. Tested and working, good to build.
 
 ## License
