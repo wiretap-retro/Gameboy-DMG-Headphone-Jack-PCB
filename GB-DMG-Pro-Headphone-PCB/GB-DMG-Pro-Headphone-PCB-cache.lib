@@ -1,0 +1,186 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Connector_Generic_Conn_01x01
+#
+DEF Connector_Generic_Conn_01x01 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Generic_Conn_01x01" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -50 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Generic_Conn_01x04
+#
+DEF Connector_Generic_Conn_01x04 J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Connector_Generic_Conn_01x04" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -250 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+X Pin_4 4 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_CP_Small
+#
+DEF Device_CP_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Device_CP_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ CP_*
+$ENDFPLIST
+DRAW
+S -60 -12 60 -27 0 1 0 F
+S -60 27 60 12 0 1 0 N
+P 2 0 1 0 -50 60 -30 60 N
+P 2 0 1 0 -40 50 -40 70 N
+X ~ 1 0 100 73 D 50 50 1 1 P
+X ~ 2 0 -100 73 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_L_Small
+#
+DEF Device_L_Small L 0 10 N N 1 F N
+F0 "L" 30 40 50 H V L CNN
+F1 "Device_L_Small" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
+A 0 -20 20 -899 899 0 1 0 N 0 -40 0 0
+A 0 20 20 -899 899 0 1 0 N 0 0 0 40
+A 0 60 20 -899 899 0 1 0 N 0 40 0 80
+X ~ 1 0 100 20 D 50 50 1 1 P
+X ~ 2 0 -100 20 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Mechanical_MountingHole
+#
+DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_SJ-3523-SMT-TR
+#
+DEF SamacSys_Parts_SJ-3523-SMT-TR J 0 30 Y Y 1 F N
+F0 "J" 1050 300 50 H V L CNN
+F1 "SamacSys_Parts_SJ-3523-SMT-TR" 1050 200 50 H V L CNN
+F2 "SJ3523SMTTR" 1050 100 50 H I L CNN
+F3 "https://www.mouser.de/datasheet/2/670/sj_352x_smt-1779397.pdf" 1050 0 50 H I L CNN
+F4 "Phone Connectors Audio Jacks" 1050 -100 50 H I L CNN "Description"
+F5 "5.2" 1050 -200 50 H I L CNN "Height"
+F6 "490-SJ-3523-SMT-TR" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/CUI-Devices/SJ-3523-SMT-TR?qs=WyjlAZoYn51zOHzJ3r4ZRA%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "CUI Inc." 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "SJ-3523-SMT-TR" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -200 200 -200 200 100 N
+X SLEEVE 1 0 0 200 R 50 50 0 0 P
+X TIP 2 0 -100 200 R 50 50 0 0 P
+X RING 3 1200 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_SJ-3566AN
+#
+DEF SamacSys_Parts_SJ-3566AN J 0 40 Y N 1 F N
+F0 "J" -201 226 50 H V L BNN
+F1 "SamacSys_Parts_SJ-3566AN" -201 -903 50 H V L BNN
+F2 "SamacSys_Parts:CUI_SJ-3566AN" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "CUI Inc" 0 0 50 H I L BNN "MF"
+F5 "Manufacturer recommendations" 0 0 50 H I L BNN "STANDARD"
+DRAW
+P 2 0 0 10 -201 -543 197 -543 N
+P 2 0 0 10 -200 -800 200 -800 N
+P 2 0 0 10 -200 -400 -200 -800 N
+P 2 0 0 10 -200 -200 200 -200 N
+P 2 0 0 10 -200 200 -200 -200 N
+P 2 0 0 6 -135 -100 -85 -100 N
+P 2 0 0 6 -135 50 -135 -100 N
+P 2 0 0 6 -110 50 -135 50 N
+P 2 0 0 6 -110 50 -110 100 N
+P 2 0 0 6 -110 100 200 100 N
+P 2 0 0 6 -85 -100 -85 50 N
+P 2 0 0 6 -85 50 -110 50 N
+P 2 0 0 6 10 -50 -30 0 N
+P 2 0 0 10 16 -728 16 -669 N
+P 2 0 0 10 16 -669 94 -669 N
+P 2 0 0 10 16 -626 16 -571 N
+P 2 0 0 10 16 -571 94 -571 N
+P 2 0 0 10 16 -469 16 -524 N
+P 2 0 0 10 20 -524 98 -524 N
+P 2 0 0 6 50 0 10 -50 N
+P 2 0 0 6 60 -100 100 -50 N
+P 2 0 0 10 94 -728 16 -728 N
+P 2 0 0 10 94 -669 94 -728 N
+P 2 0 0 10 94 -626 16 -626 N
+P 2 0 0 10 94 -571 94 -626 N
+P 2 0 0 10 98 -524 98 -469 N
+P 2 0 0 10 98 -469 20 -469 N
+P 2 0 0 6 100 -50 140 -100 N
+P 2 0 0 10 200 -800 200 -700 N
+P 2 0 0 10 200 -700 100 -700 N
+P 2 0 0 10 200 -700 200 -600 N
+P 2 0 0 10 200 -600 100 -600 N
+P 2 0 0 10 200 -600 200 -500 N
+P 2 0 0 10 200 -500 100 -500 N
+P 2 0 0 10 200 -500 200 -400 N
+P 2 0 0 10 200 -400 -200 -400 N
+P 2 0 0 10 200 -200 200 -100 N
+P 2 0 0 6 200 -100 140 -100 N
+P 2 0 0 10 200 -100 200 0 N
+P 2 0 0 6 200 0 50 0 N
+P 2 0 0 10 200 0 200 100 N
+P 2 0 0 10 200 100 200 200 N
+P 2 0 0 10 200 200 -200 200 N
+P 2 0 0 10 201 -646 -201 -646 N
+X ~ 1 400 100 200 L 40 40 0 0 P
+X ~ 2 400 -100 200 L 40 40 0 0 P
+X ~ 3 400 0 200 L 40 40 0 0 P
+X ~ 4 400 -500 200 L 40 40 0 0 P
+X ~ 5 400 -600 200 L 40 40 0 0 P
+X ~ 6 400 -700 200 L 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library
